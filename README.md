@@ -1,16 +1,18 @@
-# Produto
+# Produto_Novo
 
 Esta atividade é requisito da Avaliação Continuada 1
 
 ## 🚀 Começando
 
-*Crie uma classe que representa um produto. A classe deve ter os atributos, nome, marca, preço de custo e preço de venda. Deve ter também um método que calcula e retorna o lucro.
+*Crie uma classe que representa um produto. Essa classe terá como atributos, nome, preço de custo, preço de venda, data de fabricação e data de validade.
 
-*Crie objetos dessa classe e escreva na tela seus atributos e o valor do lucro.
+*Escreva construtores que recebem valores para inicializar seus atributos, onde:
 
-*Crie uma classe para representar pessoas. O construtor da classe deve receber como parâmetros o nome completo, altura e a data de nascimento. Os objetos, logo após criados, devem criar automaticamente um email no formato nome.sobrenome@dominio.
+*1 - Recebe todos os atributos por parâmetro.
 
-*Desafio: A data de nascimento não pode ser posterior à data atual.
+*2 - Recebe o nome preço de custo, preço de venda e data de fabricação. Nesse caso a data de validade será 1 mês após a data de fabricação.
+
+*3 - Recebe apenas o nome e preço de custo. Nesse caso, o preço de venda será 10% a mais sobre o preço de custo e a data de validade segue o mesmo critério do item anterior.
 
 ### 📋 Pré-requisitos
 
@@ -32,7 +34,7 @@ Espaço em disco suficiente para baixar e instalar os componentes da IDE(Não é
 
 ### 🔧 Instalação
 
-Após abrir o pacote com os 3 Arquivos para o programa executar, entre no Arquivo Main, onde estarão todas as informações de Input do programa, após colocar as informações que você quer, é só rodar e o cálculo tanto de produtos, quanto o de "cadastro de pessoas" será realizado
+Após abrir o pacote com o Arquivo para o programa executar, entre no Arquivo Main, onde estarão todas as informações de Input do programa, após colocar as informações que você quer, é só rodar.
 
 ## 🛠️ Construído com
 
@@ -46,4 +48,4 @@ Após abrir o pacote com os 3 Arquivos para o programa executar, entre no Arquiv
 
 ## ✒️ Autores
 
-* **Matheus Leone** - *Trabalho Inicial* - Produto
+* **Matheus Leone** - *Trabalho Inicial* - Produto_Novo
